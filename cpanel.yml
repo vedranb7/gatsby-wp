@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/webzapet/next.webzapet.com
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R /home/webzapet/repositories/gatsby-wp/* $DEPLOYPATH
